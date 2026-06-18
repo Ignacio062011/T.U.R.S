@@ -1,16 +1,15 @@
 body {
-    background-color: #5a6a7a;
+    background-color: #e2eaf3;
     font-family: Arial, sans-serif;
     margin: 0px;
     padding: 0px;
-    color: rgb(216, 217, 219);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 header {
-    background-color: #333;
+    background-color: #1a3a5c;
     padding: 10px;
     margin: 10px;
     text-align: center;
@@ -18,7 +17,6 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 
 h1 {
@@ -27,7 +25,7 @@ h1 {
 
 nav {
     width: 40%;
-    background-color: #555;
+    background-color: #2b537e;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
@@ -35,7 +33,7 @@ nav {
 }
 
 a {
-    color: white;
+    color: #091522;
     text-decoration: none;
     margin: 10px;
     font-size: 18px;
@@ -43,7 +41,7 @@ a {
 }
 
 a:hover {
-    color: #ddd;
+    color: #091522;
     transform: scale(1.2);
     transition: transform 0.3s ease;
 }
@@ -55,8 +53,13 @@ ul {
     justify-content: space-evenly;
 }
 
+p {
+    color: #4a5568;
+    font-size: 18px;
+
+}
 main {
-    background-color: #444;
+    background-color: #ffff;
     padding: 20px;
     margin: 15px;
     border-radius: 10px;
@@ -83,8 +86,8 @@ footer section {
 }
 
 #alerta-box {
-    background: #3d3010;
-    border-left: 5px solid #ffc107;
+    background: #dbb55485;
+    border-left: 5px solid #ffbf00d3;
     border-radius: 8px;
     padding: 16px 20px;
     margin: 20px 0;
@@ -105,10 +108,10 @@ footer section {
     counter-increment: pasos;
     padding: 12px 16px 12px 52px;
     margin: 10px 0;
-    background: #2d2540;
+    background: #ffffff;
     border-radius: 8px;
     position: relative;
-    color: #d8c8f0;
+    color: #4a5568  ;
 }
 
 #pasos li::before {
@@ -129,12 +132,13 @@ footer section {
     font-size: 0.85rem;
 }
 #sec-consejos{
-    background-color: #555;
+    background-color: #e8eef7;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
     margin-top: 10px;
     display: flex;
+    justify-content: space-evenly;
 }
 #txt-consejos{
     background-color: #666;
@@ -153,7 +157,7 @@ footer section {
 }
 #sec1{
     list-style: circle;
-    background-color: #555;
+    background-color: #e8eef7;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
@@ -162,10 +166,60 @@ footer section {
     justify-content: space-evenly;
 }
 #conse-div{
-    background-color: #444;
+    background-color: #dce0e2;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
+    height: auto;
     width: 160px;
     margin: 10px;
+}
+#flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+#flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;  
+}
+
+#flip-card:hover #flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+#flip-card-front, #flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+#flip-card-front {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 10px;
+}
+
+#flip-card-back {
+  background-color: #dce0e2;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
+#sec-main{
+    border-radius: 10px;
+    margin: 0 0 20px 0;
+    padding: 16px 20px;
+    background-color: #f4f7fb;
+    border: 1px solid #dde3ee;
 }
