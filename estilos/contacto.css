@@ -1,5 +1,5 @@
 body {
-    background-color: #5a6a7a;
+    background-color: #e2eaf3;
     font-family: Arial, sans-serif;
     margin: 0px;
     padding: 0px;
@@ -7,17 +7,19 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #1a3a5c;
     padding: 10px;
     margin: 10px;
     text-align: center;
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 nav {
-    background-color: #555;
+    width: 40%;
+    background-color: #2b537e;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
@@ -25,7 +27,7 @@ nav {
 }
 
 a {
-    color: white;
+    color: #091522;
     text-decoration: none;
     margin: 10px;
     font-size: 18px;
@@ -33,7 +35,7 @@ a {
 }
 
 a:hover {
-    color: #ddd;
+    color: #091522;
     transform: scale(1.2);
     transition: transform 0.3s ease;
 }
@@ -46,7 +48,7 @@ ul {
 }
 
 main {
-    background-color: #444;
+    background-color: #ffff;
     padding: 20px;
     margin: 15px;
     border-radius: 10px;
@@ -57,7 +59,7 @@ main {
     height: 100%;
 }
 footer {
-    background-color: #333;
+    background-color: #1a3a5c;
     padding: 10px;
     text-align: center;
     margin-top: auto;
@@ -68,8 +70,11 @@ footer section {
     flex: 1;
     padding: 10px;
 }
+footer section p{
+    color:#ffff
+}
 form {
-    background-color: #555;
+    background-color: #2b537e;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -121,7 +126,7 @@ label{
     width: 100%;
 }
 #sec2{
-    background-color: #555;
+    background-color: #dce0e2;
     padding: 10px;
     width: 30%;
     border-radius: 10px;
@@ -133,11 +138,16 @@ label{
     width: 385px;
 }
 #agend{
-    background-color: #333;
+    background-color: #bfc3c7;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     margin-top: 10px;
     width: 90%;
+}
+p {
+    color: #4a5568;
+    font-size: 18px;
+
 }

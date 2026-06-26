@@ -67,7 +67,7 @@ main {
 }
 
 footer {
-    background-color: #333;
+    background-color: #1a3a5c;
     padding: 10px;
     text-align: center;
     margin-top: auto;
@@ -78,7 +78,9 @@ footer section {
     flex: 1;
     padding: 10px;
 }
-
+footer section p{
+    color: #ffff;
+}
 #logo {
     width: 100px;
     height: 100px;
@@ -112,6 +114,7 @@ footer section {
     border-radius: 8px;
     position: relative;
     color: #4a5568  ;
+    width: 100%;
 }
 
 #pasos li::before {
@@ -130,6 +133,11 @@ footer section {
     justify-content: center;
     font-weight: bold;
     font-size: 0.85rem;
+}
+#div-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #sec-consejos{
     background-color: #e8eef7;
@@ -170,9 +178,16 @@ footer section {
     padding: 10px;
     text-align: center;
     border-radius: 10px;
-    height: auto;
-    width: 160px;
+    height: 200px;
+    width: 70%;
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 35px;
+}
+#conse-div p{
+    font-size: 24px;
 }
 #flip-card {
   background-color: transparent;
@@ -222,4 +237,49 @@ footer section {
     padding: 16px 20px;
     background-color: #f4f7fb;
     border: 1px solid #dde3ee;
+}
+#qns{
+    color: #fff;
+}
+.carrusel-container{
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+    background-color: #e8eef7;
+    border-radius: 10px;
+}
+
+.carrusel{
+    display: flex;
+    transition: transform .5s ease-in-out;
+}
+
+.carrusel-item{
+    min-width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+    z-index: 10;
+    transition: background .3s;
+    font-size: 24px;
+}
+
+.btn-prev{
+    left: 10px;
+}
+
+.btn-next{
+    right: 10px;
 }

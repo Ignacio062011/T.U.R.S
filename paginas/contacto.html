@@ -15,8 +15,6 @@
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="prevencion.html">Prevención</a></li>
-                <li><a href="consecuencias.html">Consecuencias</a></li>
                 <li><a href="variantes.html">Variantes</a></li>
             </ul>
         </nav>
@@ -24,13 +22,13 @@
     <main>
         <section id="sec1">
             <h3>Envianos un mensaje:</h3>
-            <form action="" id="cont">
+            <form action="https://formspree.io/f/xrewpqpb" method="POST" id="cont">
                 <label for="nombre">Nombre Completo</label>
-                <input type="text" id="txt-box" placeholder="Ej: Juan Perez" maxlength="60">
-                <label for="correo">Correo Electronico</label>
-                <input type="email" id="txt-box" placeholder="Ej: Juan@gmail.com">
+                <input type="text" name="Nombre" id="txt-box" placeholder="Ej: Juan Perez" maxlength="60">
+                <label for="correo" >Correo Electronico</label>
+                <input type="email" name="Correo" id="txt-box" placeholder="Ej: Juan@gmail.com">
                 <label for="asunto">Asunto</label>
-                <select id="asun-box">
+                <select id="asun-box" name="Asunto">
                     <option value="">Seleccioná un asunto</option>
                     <option value="consulta">Consulta general</option>
                     <option value="ayuda">Necesito ayuda</option>
@@ -38,7 +36,7 @@
                     <option value="sugerencia">Sugerencia para el sitio</option>
                     <option value="otro">Otro</option>
                 </select>
-                <label for="msj">Mensaje</label>
+                <label for="msj" name="Mensaje">Mensaje</label>
                 <textarea name="Mensaje" id="msj-box" placeholder="Dejá tu mensaje" maxlength="600"></textarea>
                 <button id="btn-enviar">Enviar Mensaje</button>
             </form>
@@ -46,7 +44,7 @@
         <section id="sec2">
             <div id="agend">
                 <h4>📧 Correo</h4>
-                <p>Info@WebShield.org</p>
+                <p>turss2000@gmail.com</p>
             </div>
 
             <div id="divid"></div>
@@ -62,6 +60,13 @@
                 <h4>📞 Lineas de Ayuda</h4>
                 <p><strong>102</strong>- Niños y adolecentes</p>
                 <p><strong>137</strong>- Victimas de violencia</p>
+            </div>
+            <div id="divid"></div>
+            <div id="agend">
+                <h4>🌐 Colaboradores</h4>
+                <p><strong>Instagram:</strong> @kevlarcloud</p>
+                <p><strong>Gmail:</strong> contacto@kevlar.com</p>
+                <p><strong>Pagina:</strong> <a href="https://kevlarcloud.com/">Kevlar Cloud</a></p>
             </div>
         </section>
     </main>
