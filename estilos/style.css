@@ -41,7 +41,7 @@ a {
 }
 
 a:hover {
-    color: #091522;
+    color: #ddd;
     transform: scale(1.2);
     transition: transform 0.3s ease;
 }
