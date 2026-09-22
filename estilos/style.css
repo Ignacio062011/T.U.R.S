@@ -21,6 +21,12 @@ header {
 
 h1 {
     font-size: 40px;
+    color: rgb(216, 217, 219);
+}
+
+#consejos{
+    font-size: 40px;
+    color: rgb(5, 5, 5);
 }
 
 nav {
