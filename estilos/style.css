@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #1a3a5c;
+    background-color: #87a1c1;
     padding: 10px;
     margin: 10px;
     text-align: center;
@@ -21,7 +21,7 @@ header {
 
 h1 {
     font-size: 40px;
-    color: rgb(216, 217, 219);
+    color: rgb(99, 100, 100);
 }
 
 #consejos{
@@ -30,8 +30,8 @@ h1 {
 }
 
 nav {
+    background-color: #94afcb;
     width: 40%;
-    background-color: #2b537e;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
@@ -39,7 +39,7 @@ nav {
 }
 
 a {
-    color: #091522;
+    color: rgb(75, 75, 77);;
     text-decoration: none;
     margin: 10px;
     font-size: 18px;
@@ -47,7 +47,7 @@ a {
 }
 
 a:hover {
-    color: #ddd;
+    color: #c7e0f8;
     transform: scale(1.2);
     transition: transform 0.3s ease;
 }
@@ -120,7 +120,7 @@ footer section p{
     border-radius: 8px;
     position: relative;
     color: #4a5568;
-    width: 100%;
+    width: 90%;
 }
 
 #pasos li::before {
@@ -180,7 +180,7 @@ footer section p{
     justify-content: space-evenly;
 }
 #conse-div{
-    background-color: #a9aeb6;
+    background-color: #d5e3f7;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
@@ -210,7 +210,8 @@ footer section p{
   transition: transform 0.6s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  border-radius: 10px;  
+  border-radius: 10px;
+  border: 2px solid #000000;
 }
 
 #flip-card:hover #flip-card-inner {
@@ -253,8 +254,7 @@ footer section p{
     width: 100%;
     margin: 20px auto;
     overflow: hidden;
-    background-color: #a9aeb6;
-    border-radius: 10px;
+    background-color: #f4f7fb;
 }
 
 .carrusel{
