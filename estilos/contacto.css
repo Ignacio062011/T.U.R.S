@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #1a3a5c;
+    background-color: #b1d1f7;
     padding: 10px;
     margin: 10px;
     text-align: center;
@@ -19,14 +19,17 @@ header {
 
 nav {
     width: 40%;
-    background-color: #2b537e;
+    background-color: #8ebef5;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
     margin-top: 10px;
     color: rgb(216, 217, 219);
 }
-
+h1 {
+    font-size: 40px;
+    color: rgb(99, 100, 100);
+}
 a {
     color: #091522;
     text-decoration: none;
