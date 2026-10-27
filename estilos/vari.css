@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #1a3a5c;
+    background-color: #87a1c1;
     padding: 10px;
     margin: 10px;
     text-align: center;
@@ -21,11 +21,12 @@ header {
 
 h1 {
     font-size: 40px;
+    color: rgb(99, 100, 100);
 }
 
 nav {
     width: 40%;
-    background-color: #2b537e;
+    background-color: #94afcb;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
@@ -38,7 +39,7 @@ p {
 }
 
 a {
-    color: rgb(216, 217, 219);
+    color: rgb(75, 75, 77);;
     text-decoration: none;
     margin: 10px;
     font-size: 18px;
@@ -46,7 +47,7 @@ a {
 }
 
 a:hover {
-    color: #ddd;
+    color: #c7e0f8;
     transform: scale(1.2);
     transition: transform 0.3s ease;
 }
@@ -76,35 +77,41 @@ main {
 
 #sec1 {
     display: grid;
-    grid-template-columns: repeat(3, minmax(350px,1fr));
+    grid-template-columns: repeat(3, minmax(350px, 1fr));
     margin: 20px;
 }
+
 #sec2 {
     display: grid;
-    grid-template-columns: repeat(3, minmax(350px,1fr));
-    margin: 20px;   
+    grid-template-columns: repeat(3, minmax(350px, 1fr));
+    margin: 20px;
 }
+
 #vari {
     background-color: #dce0e2;
+    border: 1px solid rgb(59, 59, 59);
     padding: 20px;
     border-radius: 10px;
     width: 50%;
     text-align: center;
     margin-top: 10px;
 }
-#formas{
+
+#formas {
     background-color: #dce0e2;
     border-radius: 10px;
     padding: 20px;
     margin: 15px;
     width: 50%;
 }
-#medio-box{
+
+#medio-box {
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
 }
+
 footer {
     background-color: #1a3a5c;
     padding: 10px;
@@ -118,10 +125,11 @@ footer section {
     padding: 10px;
 }
 
-footer section p{
+footer section p {
     color: #ffff;
 }
-#grom{
+
+#grom {
     background-color: #dce0e2;
     padding: 20px;
     border-radius: 10px;
@@ -130,72 +138,80 @@ footer section p{
     margin-top: 10px;
     margin: 10px;
 }
-#gr-sec{
+
+#gr-sec {
     margin: 50px;
     display: flex;
     justify-content: space-between;
 }
-h2{
+
+h2 {
     color: #4a5568;
 }
-h3{
+
+h3 {
     color: #4a5568;
 }
-h4{
+
+h4 {
     color: #4a5568;
 }
-#qns{
+
+#qns {
     color: #fff;
 }
-#sec-main{
+
+#sec-main {
     border-radius: 10px;
     margin: 0 0 20px 0;
     padding: 16px 20px;
     background-color: #f4f7fb;
     border: 1px solid #dde3ee;
 }
+
 #flip-card {
-  background-color: transparent;
-  width: 250px;
-  height: 250px;
-  perspective: 1000px;
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+    perspective: 1000px;
 }
 
 #flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  border-radius: 10px;  
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 #flip-card:hover #flip-card-inner {
-  transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
-#flip-card-front, #flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+#flip-card-front,
+#flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 #flip-card-front {
-  background-color: #ffffff;
-  color: black;
-  border-radius: 10px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
 }
 
 #flip-card-back {
-  background-color: #dce0e2;
-  color: white;
-  transform: rotateY(180deg);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+    background-color: #dce0e2;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }

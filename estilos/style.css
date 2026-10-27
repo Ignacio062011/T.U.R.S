@@ -24,7 +24,7 @@ h1 {
     color: rgb(99, 100, 100);
 }
 
-#consejos{
+#consejos {
     font-size: 40px;
     color: rgb(5, 5, 5);
 }
@@ -39,7 +39,8 @@ nav {
 }
 
 a {
-    color: rgb(75, 75, 77);;
+    color: rgb(75, 75, 77);
+    ;
     text-decoration: none;
     margin: 10px;
     font-size: 18px;
@@ -64,6 +65,7 @@ p {
     font-size: 18px;
 
 }
+
 main {
     background-color: #ffff;
     padding: 20px;
@@ -84,9 +86,11 @@ footer section {
     flex: 1;
     padding: 10px;
 }
-footer section p{
+
+footer section p {
     color: #ffff;
 }
+
 #logo {
     width: 100px;
     height: 100px;
@@ -140,12 +144,14 @@ footer section p{
     font-weight: bold;
     font-size: 0.85rem;
 }
-#div-sec{
+
+#div-sec {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#sec-consejos{
+
+#sec-consejos {
     background-color: #e8eef7;
     padding: 10px;
     text-align: center;
@@ -154,22 +160,26 @@ footer section p{
     display: flex;
     justify-content: space-evenly;
 }
-#txt-consejos{
+
+#txt-consejos {
     background-color: #666;
     padding: 10px;
     border-radius: 10px;
     margin: 10px;
     width: 50%;
 }
-#imgs{
+
+#imgs {
     width: 200px;
     height: 200px;
     border-radius: 10px;
 }
-#box-img{
+
+#box-img {
     width: auto;
 }
-#sec1{
+
+#sec1 {
     list-style: circle;
     background-color: #e8eef7;
     padding: 10px;
@@ -179,7 +189,8 @@ footer section p{
     display: flex;
     justify-content: space-evenly;
 }
-#conse-div{
+
+#conse-div {
     background-color: #d5e3f7;
     padding: 10px;
     text-align: center;
@@ -192,63 +203,69 @@ footer section p{
     flex-direction: column;
     font-size: 35px;
 }
-#conse-div p{
+
+#conse-div p {
     font-size: 24px;
 }
+
 #flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
 }
 
 #flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  border-radius: 10px;
-  border: 2px solid #000000;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 2px solid #000000;
 }
 
 #flip-card:hover #flip-card-inner {
-  transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
-#flip-card-front, #flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+#flip-card-front,
+#flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 #flip-card-front {
-  background-color: #ffffff;
-  color: black;
-  border-radius: 10px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
 }
 
 #flip-card-back {
-  background-color: #dce0e2;
-  color: white;
-  transform: rotateY(180deg);
-  border-radius: 10px;
+    background-color: #dce0e2;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 10px;
 }
-#sec-main{
+
+#sec-main {
     border-radius: 10px;
     margin: 0 0 20px 0;
     padding: 16px 20px;
     background-color: #f4f7fb;
     border: 1px solid #dde3ee;
 }
-#qns{
+
+#qns {
     color: #fff;
 }
-.carrusel-container{
+
+.carrusel-container {
     position: relative;
     max-width: 1000px;
     width: 100%;
@@ -257,19 +274,19 @@ footer section p{
     background-color: #f4f7fb;
 }
 
-.carrusel{
+.carrusel {
     display: flex;
     transition: transform .5s ease-in-out;
 }
 
-.carrusel-item{
+.carrusel-item {
     min-width: 100%;
     position: relative;
     display: flex;
     justify-content: center;
 }
 
-.btn{
+.btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -282,10 +299,10 @@ footer section p{
     font-size: 24px;
 }
 
-.btn-prev{
+.btn-prev {
     left: 10px;
 }
 
-.btn-next{
+.btn-next {
     right: 10px;
 }

@@ -1,41 +1,23 @@
-.carrusel-container{
-    position: relative;
-    max-width: 1000px;
+.header-animado {
+    position: fixed;
+    top: 0;
     width: 100%;
-    margin: 20px auto;
-    overflow: hidden;
-    background-color: #f4f7fb;
-}
-
-.carrusel{
+    background-color: #f84343;
+    color: white;
     display: flex;
-    transition: transform .5s ease-in-out;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    animation: moverHeader 5s infinite alternate ease-in-out;
 }
 
-.carrusel-item{
-    min-width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
+@keyframes moverHeader {
+    0% {
+        background-color: #222;
+    }
 
-.btn{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0);
-    border: none;
-    padding: 16px;
-    cursor: pointer;
-    z-index: 10;
-    transition: background .3s;
-    font-size: 24px;
-}
-
-.btn-prev{
-    left: 10px;
-}
-
-.btn-next{
-    right: 10px;
+    100% {
+        background-color: #0056b3;
+        /* Cambia de color suavemente */
+    }
 }
